@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const width = window.innerWidth;
 
     if (width <= 640)
-      return (img.src = "./assets/images/image-product-mobile.jpg");
-    return (img.src = "./assets/images/image-product-desktop.jpg");
+      return (img.src = "/assets/images/image-product-mobile.jpg");
+    return (img.src = "/assets/images/image-product-desktop.jpg");
   });
   resizeObserver.observe(body);
 });
