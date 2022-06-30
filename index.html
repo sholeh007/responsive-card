@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body class="bg-cream">
+    <section class="grid items-center justify-center min-h-screen px-4">
+      <div class="bg-white2 rounded-lg md:grid md:grid-cols-2 md:w-[35rem]">
+        <div>
+          <img
+            class="rounded-tl-lg rounded-tr-lg md:rounded-tr-none md:rounded-bl-lg"
+            alt="product"
+            id="img"
+          />
+        </div>
+        <div class="p-4">
+          <h1
+            class="font-montserrat text-dark-blue text-sm font-medium uppercase tracking-[4px]"
+          >
+            Perfume
+          </h1>
+          <h2 class="py-3 font-fraunces text-dark-blue font-bold text-3xl">
+            Gabrielle Essence Eau De Parfum
+          </h2>
+          <p
+            class="text-[14px] font-montserrat text-dark-grayish-blue font-medium"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="flex items-center pt-12 gap-4">
+            <p class="text-dark-cyan font-bold font-fraunces text-3xl">
+              $149.99
+            </p>
+            <p
+              class="line-through text-[14px] font-montserrat text-dark-blue font-medium"
+            >
+              $169.99
+            </p>
+          </div>
+          <div class="w-full pt-2 md:pt-4">
+            <a
+              href="#"
+              class="bg-dark-cyan text-white2 xl:hover:bg-teal-800 rounded-md flex justify-center items-center gap-2 py-3"
+            >
+              <img
+                src="./assets/images/icon-cart.svg"
+                alt="cart"
+                width="15"
+                height="16"
+              />
+              <span class="font-montserrat font-bold text-sm">Add to Cart</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-4">
+      Challenge by
+      <a
+        class="text-blue-500 md:hover:text-blue-700"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="”noopener"
+        noreferrer”
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="text-blue-500 md:hover:text-blue-700"
+        href="https://github.com/sholeh007"
+        target="_blank"
+        rel="”noopener"
+        noreferrer”
+        >sholeh</a
+      >.
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
